@@ -20,10 +20,15 @@ class ContactInstance{
     
     //METHODS
     init() {
-        var Toto: Person = Person(
+        var Toto: Person = Person(LastName: "Anthony", FirstName: "Cordani",
+            Adress: Address(),
+            Phone: <#[Phone]?#>,
+            Email: <#String?#>)
     }
     
-    
+    func AddContact() {
+        
+    }
     class var sharedInstance: ContactInstance {
         return _ContactInstanceSharedInstance
     }
