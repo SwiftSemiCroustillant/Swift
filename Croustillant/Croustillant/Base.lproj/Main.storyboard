@@ -28,7 +28,7 @@
                     <navigationItem key="navigationItem" title="Croustinuaire" id="8bd-zd-pwk">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="bG0-8h-6XN">
                             <connections>
-                                <segue destination="wnp-yF-VoQ" kind="presentation" id="0ve-Pz-t4e"/>
+                                <segue destination="rcT-lm-bTA" kind="presentation" id="L60-NC-DVZ"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -39,6 +39,22 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="n1m-Eg-VKw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="623" y="394"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="GUJ-8p-zoT">
+            <objects>
+                <navigationController id="rcT-lm-bTA" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Lxq-VX-yor">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="wnp-yF-VoQ" kind="relationship" relationship="rootViewController" id="d4q-bv-EJv"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0CU-BK-KCE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="623" y="1154"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="SnR-ie-SGP">
@@ -58,7 +74,7 @@
             </objects>
             <point key="canvasLocation" x="1430" y="394"/>
         </scene>
-        <!--View Controller-->
+        <!--Ajouter un contact-->
         <scene sceneID="S8X-gW-v25">
             <objects>
                 <viewController id="wnp-yF-VoQ" sceneMemberID="viewController">
@@ -71,14 +87,14 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <toolbarItems>
-                        <barButtonItem title="Item" style="plain" id="ctU-M3-Vj0"/>
-                    </toolbarItems>
-                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <navigationItem key="navigationItem" title="Ajouter un contact" id="dxA-LU-h4e">
+                        <barButtonItem key="leftBarButtonItem" title="Annuler" id="AKw-Us-Jap"/>
+                        <barButtonItem key="rightBarButtonItem" title="OK" id="9iz-PP-kGP"/>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uzf-DO-7gg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="623" y="1113"/>
+            <point key="canvasLocation" x="1430" y="1154"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="olW-qK-E18">
