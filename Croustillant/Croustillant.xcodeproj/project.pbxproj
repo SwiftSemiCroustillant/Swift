@@ -1,0 +1,432 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9227E3B21ADF9C0700A1E822 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9227E3B11ADF9C0700A1E822 /* AppDelegate.swift */; };
+		9227E3B41ADF9C0700A1E822 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9227E3B31ADF9C0700A1E822 /* ViewController.swift */; };
+		9227E3B71ADF9C0700A1E822 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9227E3B51ADF9C0700A1E822 /* Main.storyboard */; };
+		9227E3B91ADF9C0700A1E822 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9227E3B81ADF9C0700A1E822 /* Images.xcassets */; };
+		9227E3BC1ADF9C0700A1E822 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9227E3BA1ADF9C0700A1E822 /* LaunchScreen.xib */; };
+		9227E3C81ADF9C0700A1E822 /* CroustillantTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9227E3C71ADF9C0700A1E822 /* CroustillantTests.swift */; };
+		9227E3D21ADF9C3300A1E822 /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9227E3D11ADF9C3300A1E822 /* Entitlements.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9227E3C21ADF9C0700A1E822 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9227E3A41ADF9C0700A1E822 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9227E3AB1ADF9C0700A1E822;
+			remoteInfo = Croustillant;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9227E3AC1ADF9C0700A1E822 /* Croustillant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Croustillant.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9227E3B01ADF9C0700A1E822 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9227E3B11ADF9C0700A1E822 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9227E3B31ADF9C0700A1E822 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9227E3B61ADF9C0700A1E822 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9227E3B81ADF9C0700A1E822 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9227E3BB1ADF9C0700A1E822 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		9227E3C11ADF9C0700A1E822 /* CroustillantTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CroustillantTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9227E3C61ADF9C0700A1E822 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9227E3C71ADF9C0700A1E822 /* CroustillantTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CroustillantTests.swift; sourceTree = "<group>"; };
+		9227E3D11ADF9C3300A1E822 /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9227E3A91ADF9C0700A1E822 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9227E3BE1ADF9C0700A1E822 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9227E3A31ADF9C0700A1E822 = {
+			isa = PBXGroup;
+			children = (
+				9227E3D11ADF9C3300A1E822 /* Entitlements.plist */,
+				9227E3AE1ADF9C0700A1E822 /* Croustillant */,
+				9227E3C41ADF9C0700A1E822 /* CroustillantTests */,
+				9227E3AD1ADF9C0700A1E822 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9227E3AD1ADF9C0700A1E822 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9227E3AC1ADF9C0700A1E822 /* Croustillant.app */,
+				9227E3C11ADF9C0700A1E822 /* CroustillantTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9227E3AE1ADF9C0700A1E822 /* Croustillant */ = {
+			isa = PBXGroup;
+			children = (
+				9227E3B11ADF9C0700A1E822 /* AppDelegate.swift */,
+				9227E3B31ADF9C0700A1E822 /* ViewController.swift */,
+				9227E3B51ADF9C0700A1E822 /* Main.storyboard */,
+				9227E3B81ADF9C0700A1E822 /* Images.xcassets */,
+				9227E3BA1ADF9C0700A1E822 /* LaunchScreen.xib */,
+				9227E3AF1ADF9C0700A1E822 /* Supporting Files */,
+			);
+			path = Croustillant;
+			sourceTree = "<group>";
+		};
+		9227E3AF1ADF9C0700A1E822 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9227E3B01ADF9C0700A1E822 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9227E3C41ADF9C0700A1E822 /* CroustillantTests */ = {
+			isa = PBXGroup;
+			children = (
+				9227E3C71ADF9C0700A1E822 /* CroustillantTests.swift */,
+				9227E3C51ADF9C0700A1E822 /* Supporting Files */,
+			);
+			path = CroustillantTests;
+			sourceTree = "<group>";
+		};
+		9227E3C51ADF9C0700A1E822 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9227E3C61ADF9C0700A1E822 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9227E3AB1ADF9C0700A1E822 /* Croustillant */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9227E3CB1ADF9C0700A1E822 /* Build configuration list for PBXNativeTarget "Croustillant" */;
+			buildPhases = (
+				9227E3A81ADF9C0700A1E822 /* Sources */,
+				9227E3A91ADF9C0700A1E822 /* Frameworks */,
+				9227E3AA1ADF9C0700A1E822 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Croustillant;
+			productName = Croustillant;
+			productReference = 9227E3AC1ADF9C0700A1E822 /* Croustillant.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9227E3C01ADF9C0700A1E822 /* CroustillantTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9227E3CE1ADF9C0700A1E822 /* Build configuration list for PBXNativeTarget "CroustillantTests" */;
+			buildPhases = (
+				9227E3BD1ADF9C0700A1E822 /* Sources */,
+				9227E3BE1ADF9C0700A1E822 /* Frameworks */,
+				9227E3BF1ADF9C0700A1E822 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9227E3C31ADF9C0700A1E822 /* PBXTargetDependency */,
+			);
+			name = CroustillantTests;
+			productName = CroustillantTests;
+			productReference = 9227E3C11ADF9C0700A1E822 /* CroustillantTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9227E3A41ADF9C0700A1E822 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Cordani Industry";
+				TargetAttributes = {
+					9227E3AB1ADF9C0700A1E822 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					9227E3C01ADF9C0700A1E822 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 9227E3AB1ADF9C0700A1E822;
+					};
+				};
+			};
+			buildConfigurationList = 9227E3A71ADF9C0700A1E822 /* Build configuration list for PBXProject "Croustillant" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9227E3A31ADF9C0700A1E822;
+			productRefGroup = 9227E3AD1ADF9C0700A1E822 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9227E3AB1ADF9C0700A1E822 /* Croustillant */,
+				9227E3C01ADF9C0700A1E822 /* CroustillantTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9227E3AA1ADF9C0700A1E822 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9227E3D21ADF9C3300A1E822 /* Entitlements.plist in Resources */,
+				9227E3B71ADF9C0700A1E822 /* Main.storyboard in Resources */,
+				9227E3BC1ADF9C0700A1E822 /* LaunchScreen.xib in Resources */,
+				9227E3B91ADF9C0700A1E822 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9227E3BF1ADF9C0700A1E822 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9227E3A81ADF9C0700A1E822 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9227E3B41ADF9C0700A1E822 /* ViewController.swift in Sources */,
+				9227E3B21ADF9C0700A1E822 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9227E3BD1ADF9C0700A1E822 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9227E3C81ADF9C0700A1E822 /* CroustillantTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9227E3C31ADF9C0700A1E822 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9227E3AB1ADF9C0700A1E822 /* Croustillant */;
+			targetProxy = 9227E3C21ADF9C0700A1E822 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9227E3B51ADF9C0700A1E822 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9227E3B61ADF9C0700A1E822 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9227E3BA1ADF9C0700A1E822 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9227E3BB1ADF9C0700A1E822 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9227E3C91ADF9C0700A1E822 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9227E3CA1ADF9C0700A1E822 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9227E3CC1ADF9C0700A1E822 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Croustillant/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9227E3CD1ADF9C0700A1E822 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Croustillant/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9227E3CF1ADF9C0700A1E822 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CroustillantTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Croustillant.app/Croustillant";
+			};
+			name = Debug;
+		};
+		9227E3D01ADF9C0700A1E822 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CroustillantTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Croustillant.app/Croustillant";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9227E3A71ADF9C0700A1E822 /* Build configuration list for PBXProject "Croustillant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9227E3C91ADF9C0700A1E822 /* Debug */,
+				9227E3CA1ADF9C0700A1E822 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9227E3CB1ADF9C0700A1E822 /* Build configuration list for PBXNativeTarget "Croustillant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9227E3CC1ADF9C0700A1E822 /* Debug */,
+				9227E3CD1ADF9C0700A1E822 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9227E3CE1ADF9C0700A1E822 /* Build configuration list for PBXNativeTarget "CroustillantTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9227E3CF1ADF9C0700A1E822 /* Debug */,
+				9227E3D01ADF9C0700A1E822 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9227E3A41ADF9C0700A1E822 /* Project object */;
+}
