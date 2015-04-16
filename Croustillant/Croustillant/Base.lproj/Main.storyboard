@@ -58,7 +58,7 @@
             </objects>
             <point key="canvasLocation" x="1430" y="394"/>
         </scene>
-        <!--Title-->
+        <!--View Controller-->
         <scene sceneID="S8X-gW-v25">
             <objects>
                 <viewController id="wnp-yF-VoQ" sceneMemberID="viewController">
@@ -69,21 +69,16 @@
                     <view key="view" contentMode="scaleToFill" id="wJS-KS-zSK">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gnc-tN-ZcF">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
-                                <items>
-                                    <navigationItem title="Title" id="1wU-ph-Atm"/>
-                                </items>
-                            </navigationBar>
-                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Title" id="iZ8-Ne-4gE"/>
+                    <toolbarItems>
+                        <barButtonItem title="Item" style="plain" id="ctU-M3-Vj0"/>
+                    </toolbarItems>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uzf-DO-7gg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="623" y="1104"/>
+            <point key="canvasLocation" x="623" y="1113"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="olW-qK-E18">
