@@ -80,8 +80,10 @@
 		9227E3AE1ADF9C0700A1E822 /* Croustillant */ = {
 			isa = PBXGroup;
 			children = (
+				9227E3D51ADFA57500A1E822 /* Controller */,
+				9227E3D41ADFA56D00A1E822 /* View */,
+				9227E3D31ADFA56500A1E822 /* Model */,
 				9227E3B11ADF9C0700A1E822 /* AppDelegate.swift */,
-				9227E3B31ADF9C0700A1E822 /* ViewController.swift */,
 				9227E3B51ADF9C0700A1E822 /* Main.storyboard */,
 				9227E3B81ADF9C0700A1E822 /* Images.xcassets */,
 				9227E3BA1ADF9C0700A1E822 /* LaunchScreen.xib */,
@@ -113,6 +115,28 @@
 				9227E3C61ADF9C0700A1E822 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9227E3D31ADFA56500A1E822 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		9227E3D41ADFA56D00A1E822 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		9227E3D51ADFA57500A1E822 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9227E3B31ADF9C0700A1E822 /* ViewController.swift */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
