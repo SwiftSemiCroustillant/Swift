@@ -28,17 +28,38 @@
                     <navigationItem key="navigationItem" title="Croustinuaire" id="8bd-zd-pwk">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="bG0-8h-6XN">
                             <connections>
-                                <segue destination="rcT-lm-bTA" kind="presentation" id="L60-NC-DVZ"/>
+                                <segue destination="rcT-lm-bTA" kind="presentation" id="x68-lh-S1D"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
                     <connections>
-                        <segue destination="jPt-Px-g9G" kind="show" id="4c4-wn-qi1"/>
+                        <segue destination="K48-MZ-nhp" kind="show" id="2n2-p4-0q8"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="n1m-Eg-VKw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="623" y="394"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="PRt-Xo-HRQ">
+            <objects>
+                <viewController id="K48-MZ-nhp" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="gan-4e-9ST"/>
+                        <viewControllerLayoutGuide type="bottom" id="viM-Fn-8dd"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="wgL-KX-XoQ">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="TZf-2m-WgV">
+                        <barButtonItem key="rightBarButtonItem" title="Modifier" id="4Vw-hN-fbo"/>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6y7-nh-7R9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1362" y="394"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="GUJ-8p-zoT">
@@ -55,24 +76,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0CU-BK-KCE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="623" y="1154"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="SnR-ie-SGP">
-            <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="sSw-V3-ukt" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <viewController id="jPt-Px-g9G" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="dO8-Q8-hwa"/>
-                        <viewControllerLayoutGuide type="bottom" id="s8P-vk-xL2"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="Ug4-fE-exw">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                </viewController>
-            </objects>
-            <point key="canvasLocation" x="1430" y="394"/>
         </scene>
         <!--Ajouter un contact-->
         <scene sceneID="S8X-gW-v25">
