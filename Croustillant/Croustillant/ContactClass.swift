@@ -13,23 +13,34 @@ struct Address {
     // VARIABLE
     var number: String = ""
     var street: String = ""
-    var postalCode: String = ""
+    var zipCode: String = ""
     var town: String = ""
     var country: String = ""
     
-    init(){
+    init(Number number: String, Street street: String, ZipCode zipCode: String, Town town: String, Country country: String ){
         
+        self.number = number
+        self.street = street
+        self.zipCode = zipCode
+        self.town = town
+        self.country = country
     }
     
 }
 
 struct Phone {
     
-    enum Type {
+    enum CaseOfType {
         case Domicile, Mobile, iPhone, Bureau
     }
     
-    var type: Type = Type.Domicile
+    var type: CaseOfType = CaseOfType.Domicile
     var number: String = ""
+    
+    init(Type type: CaseOfType, NumberPhone numberPhone: String){
+        
+        self.type = type
+        self.number = numberPhone
+    }
 }
 
