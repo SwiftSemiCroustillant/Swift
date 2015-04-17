@@ -20,19 +20,19 @@ class AddViewController: UITableViewController {
     @IBOutlet weak var zipCode: UITextField!
     @IBOutlet weak var town: UITextField!
     @IBOutlet weak var country: UITextField!
-    
+
     // Boolean true if User touch add button, else false
     var isAdd: Bool = false
     var indexContact = 0
     var contactList: [Person] = [Person]()
     var contactToEdit: Person = Person()
-    
-    
+
+
     override func viewDidLoad() {
         super.viewDidLoad()
         contactList = ContactInstance.sharedInstance.contacts
         contactToEdit = contactList[indexContact]
-    
+
         // If isAdd is false then load contact information
         if !isAdd {
             self.firstName.text = contactToEdit.firstName
@@ -48,25 +48,30 @@ class AddViewController: UITableViewController {
 
     }
 
+    override func viewDidAppear() {
+        self.tableView.reloadData()
+    }
+
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
+
     @IBAction func SubmitButtonClick(sender: AnyObject) {
         if((self.presentingViewController) != nil){
             //Add or Edit contact
             var editAdress = Address(Number: self.streetNumber.text, Street: self.streetLabel.text, ZipCode: self.zipCode.text, Town: self.town.text, Country: self.country.text)
             var editPhone = Phone(Type: Phone.CaseOfType.Domicile, NumberPhone: self.phoneNumber.text)
             var newContact = Person(LastName: self.lastName.text, FirstName: self.firstName.text, Address: [editAdress], Phone: [editPhone], Email: self.email.text)
-            
-            if !isAdd {
+
+            if contactList[newContact] != nil {
                 //Delete exitant contact before insert
-                contactList.removeAtIndex(indexContact)
+                contactList[indexContact]=newContact
             }
-            
+
             contactList.append(newContact)
             self.dismissViewControllerAnimated(true, completion: nil)
+
         }
     }
 
@@ -75,8 +80,8 @@ class AddViewController: UITableViewController {
             self.dismissViewControllerAnimated(true, completion: nil)
         }
     }
-    
-    
+
+
     /*
     // MARK: - Navigation
 
