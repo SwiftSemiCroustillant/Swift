@@ -1,0 +1,54 @@
+
+/* Class = "UITextField"; placeholder = "Nom"; ObjectID = "1LG-Jt-ZW4"; */
+"1LG-Jt-ZW4.placeholder" = "Nom";
+
+/* Class = "UITextField"; placeholder = "e-mail"; ObjectID = "6Ln-KL-Tt7"; */
+"6Ln-KL-Tt7.placeholder" = "e-mail";
+
+/* Class = "UILabel"; text = "CP + Ville"; ObjectID = "BIX-Vw-4xb"; */
+"BIX-Vw-4xb.text" = "CP + Ville";
+
+/* Class = "UILabel"; text = "Pays"; ObjectID = "KZY-LT-FhS"; */
+"KZY-LT-FhS.text" = "Pays";
+
+/* Class = "UITextField"; placeholder = "Pays"; ObjectID = "MVs-dc-59m"; */
+"MVs-dc-59m.placeholder" = "Pays";
+
+/* Class = "UILabel"; text = "0600000000"; ObjectID = "O2T-hV-JtT"; */
+"O2T-hV-JtT.text" = "0600000000";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Paf-wE-atZ"; */
+"Paf-wE-atZ.text" = "Label";
+
+/* Class = "UILabel"; text = "a.cordani@mmm.com"; ObjectID = "XaY-Dh-uCi"; */
+"XaY-Dh-uCi.text" = "a.cordani@mmm.com";
+
+/* Class = "UITextField"; placeholder = "Numéro"; ObjectID = "cGk-P1-mPo"; */
+"cGk-P1-mPo.placeholder" = "Numéro";
+
+/* Class = "UITextField"; placeholder = "Rue"; ObjectID = "cyD-q3-jTY"; */
+"cyD-q3-jTY.placeholder" = "Rue";
+
+/* Class = "UILabel"; text = "Prenom Nom"; ObjectID = "d58-Af-CxT"; */
+"d58-Af-CxT.text" = "Prenom Nom";
+
+/* Class = "UITextField"; placeholder = "Rue"; ObjectID = "eiN-f0-keX"; */
+"eiN-f0-keX.placeholder" = "Rue";
+
+/* Class = "UITextField"; placeholder = "Code Postal"; ObjectID = "hae-mb-bT1"; */
+"hae-mb-bT1.placeholder" = "CP";
+
+/* Class = "UITextField"; placeholder = "Prénom"; ObjectID = "ktP-Bh-O5r"; */
+"ktP-Bh-O5r.placeholder" = "Prénom";
+
+/* Class = "UITextField"; placeholder = "Ville"; ObjectID = "ntF-9X-jRO"; */
+"ntF-9X-jRO.placeholder" = "Ville";
+
+/* Class = "UINavigationItem"; title = "Croustinuaire"; ObjectID = "pOE-mU-eKR"; */
+"pOE-mU-eKR.title" = "Croustinuaire";
+
+/* Class = "UILabel"; text = "1"; ObjectID = "r8N-Yg-BCr"; */
+"r8N-Yg-BCr.text" = "1";
+
+/* Class = "UILabel"; text = "Rue"; ObjectID = "yj2-K4-dAZ"; */
+"yj2-K4-dAZ.text" = "Rue";

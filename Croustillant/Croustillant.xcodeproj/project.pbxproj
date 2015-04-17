@@ -19,6 +19,8 @@
 		9227E3DD1ADFA67F00A1E822 /* PersonClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9227E3DC1ADFA67F00A1E822 /* PersonClass.swift */; };
 		9227E3DF1ADFAA4000A1E822 /* ContactClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9227E3DE1ADFAA4000A1E822 /* ContactClass.swift */; };
 		9227E3E11ADFAE6300A1E822 /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9227E3E01ADFAE6300A1E822 /* Singleton.swift */; };
+		9227E3E31ADFC07800A1E822 /* ContactTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9227E3E21ADFC07800A1E822 /* ContactTableViewCell.swift */; };
+		9227E3E61ADFFC6600A1E822 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9227E3E51ADFFC6600A1E822 /* CustomTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,13 @@
 		9227E3DC1ADFA67F00A1E822 /* PersonClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonClass.swift; sourceTree = "<group>"; };
 		9227E3DE1ADFAA4000A1E822 /* ContactClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactClass.swift; sourceTree = "<group>"; };
 		9227E3E01ADFAE6300A1E822 /* Singleton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Singleton.swift; sourceTree = "<group>"; };
+		9227E3E21ADFC07800A1E822 /* ContactTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactTableViewCell.swift; sourceTree = "<group>"; };
+		9227E3E51ADFFC6600A1E822 /* CustomTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		92B60ECB1AE0199B0082FACA /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Main.strings; sourceTree = "<group>"; };
+		92B60ECC1AE0199B0082FACA /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		92B60ED01AE01B4D0082FACA /* Base */ = {isa = PBXFileReference; explicitFileType = image.jpeg; name = Base; path = Base.lproj/backgroungToto; sourceTree = "<group>"; };
+		92B60ED21AE01B500082FACA /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = en.lproj/backgroungToto; sourceTree = "<group>"; };
+		92B60ED31AE01B510082FACA /* fr */ = {isa = PBXFileReference; lastKnownFileType = file; name = fr; path = fr.lproj/backgroungToto; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +99,8 @@
 		9227E3AE1ADF9C0700A1E822 /* Croustillant */ = {
 			isa = PBXGroup;
 			children = (
+				92B60ED61AE021530082FACA /* Images */,
+				9227E3E41ADFFC3200A1E822 /* Custom components */,
 				9227E3D51ADFA57500A1E822 /* Controller */,
 				9227E3D31ADFA56500A1E822 /* Model */,
 				9227E3B11ADF9C0700A1E822 /* AppDelegate.swift */,
@@ -139,11 +150,28 @@
 		9227E3D51ADFA57500A1E822 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				9227E3E21ADFC07800A1E822 /* ContactTableViewCell.swift */,
 				9227E3D61ADFA61900A1E822 /* ContactsViewController.swift */,
 				9227E3D81ADFA63700A1E822 /* InfoViewController.swift */,
 				9227E3DA1ADFA65400A1E822 /* AddViewController.swift */,
 			);
 			name = Controller;
+			sourceTree = "<group>";
+		};
+		9227E3E41ADFFC3200A1E822 /* Custom components */ = {
+			isa = PBXGroup;
+			children = (
+				9227E3E51ADFFC6600A1E822 /* CustomTextField.swift */,
+			);
+			name = "Custom components";
+			sourceTree = "<group>";
+		};
+		92B60ED61AE021530082FACA /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				92B60ED11AE01B4D0082FACA /* backgroungToto */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -209,6 +237,7 @@
 			knownRegions = (
 				en,
 				Base,
+				fr,
 			);
 			mainGroup = 9227E3A31ADF9C0700A1E822;
 			productRefGroup = 9227E3AD1ADF9C0700A1E822 /* Products */;
@@ -251,9 +280,11 @@
 				9227E3E11ADFAE6300A1E822 /* Singleton.swift in Sources */,
 				9227E3B21ADF9C0700A1E822 /* AppDelegate.swift in Sources */,
 				9227E3D91ADFA63700A1E822 /* InfoViewController.swift in Sources */,
+				9227E3E31ADFC07800A1E822 /* ContactTableViewCell.swift in Sources */,
 				9227E3DF1ADFAA4000A1E822 /* ContactClass.swift in Sources */,
 				9227E3DB1ADFA65400A1E822 /* AddViewController.swift in Sources */,
 				9227E3D71ADFA61900A1E822 /* ContactsViewController.swift in Sources */,
+				9227E3E61ADFFC6600A1E822 /* CustomTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +311,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				9227E3B61ADF9C0700A1E822 /* Base */,
+				92B60ECB1AE0199B0082FACA /* fr */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -288,9 +320,21 @@
 			isa = PBXVariantGroup;
 			children = (
 				9227E3BB1ADF9C0700A1E822 /* Base */,
+				92B60ECC1AE0199B0082FACA /* fr */,
 			);
 			name = LaunchScreen.xib;
 			sourceTree = "<group>";
+		};
+		92B60ED11AE01B4D0082FACA /* backgroungToto */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92B60ED01AE01B4D0082FACA /* Base */,
+				92B60ED21AE01B500082FACA /* en */,
+				92B60ED31AE01B510082FACA /* fr */,
+			);
+			name = backgroungToto;
+			path = ../../../../../../../../Documents/Developper/GIT/Swift/Croustillant/Croustillant;
+			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXVariantGroup section */
 
@@ -453,6 +497,7 @@
 				9227E3CD1ADF9C0700A1E822 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9227E3CE1ADF9C0700A1E822 /* Build configuration list for PBXNativeTarget "CroustillantTests" */ = {
 			isa = XCConfigurationList;
@@ -461,6 +506,7 @@
 				9227E3D01ADF9C0700A1E822 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

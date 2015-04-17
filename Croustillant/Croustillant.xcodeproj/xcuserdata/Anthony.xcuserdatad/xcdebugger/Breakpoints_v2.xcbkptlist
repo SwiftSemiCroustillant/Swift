@@ -9,13 +9,108 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Croustillant/PersonClass.swift"
-            timestampString = "450867646.318198"
+            filePath = "Croustillant/Singleton.swift"
+            timestampString = "450875484.514723"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "24"
-            endingLineNumber = "24"
-            landmarkName = "init(LastName:FirstName:Address:Phone:Email:)"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "ContactInstance"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Croustillant.ContactInstance.contacts.getter : Swift.Array&lt;Croustillant.Person&gt;"
+                  moduleName = "Croustillant"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Anthony/Documents/Developper/GIT/Swift/Croustillant/Croustillant/Singleton.swift"
+                  timestampString = "450907592.153231"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Croustillant.ContactInstance.contacts.setter : Swift.Array&lt;Croustillant.Person&gt;"
+                  moduleName = "Croustillant"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Anthony/Documents/Developper/GIT/Swift/Croustillant/Croustillant/Singleton.swift"
+                  timestampString = "450907592.15341"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Croustillant.ContactInstance.contacts.materializeForSet : Swift.Array&lt;Croustillant.Person&gt;"
+                  moduleName = "Croustillant"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Anthony/Documents/Developper/GIT/Swift/Croustillant/Croustillant/Singleton.swift"
+                  timestampString = "450907592.15351"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "20">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Croustillant/NavigationController.swift"
+            timestampString = "450902690.296236"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "prepareForSegue(_:sender:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Croustillant/NavigationController.swift"
+            timestampString = "450902740.231135"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "NavigationController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Croustillant/AddViewController.swift"
+            timestampString = "450906502.606012"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "62"
+            endingLineNumber = "62"
+            landmarkName = "SubmitButtonClick(_:)"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>

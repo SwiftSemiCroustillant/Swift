@@ -25,18 +25,18 @@ class ContactInstance{
             Address: [Address(Number: "36", Street: "Boulevard des écoles", ZipCode: "82230", Town: "MONCLAR DE QUERCY", Country: "FRANCE")],
             Phone: [Phone(Type: Phone.CaseOfType.Mobile, NumberPhone: "0674815756")],
             Email: "a.cordani@me.com")
-        var mine: Person = Person(LastName: "Anthony",
-            FirstName: "Cordani",
+        var mine: Person = Person(LastName: "Hermine",
+            FirstName: "Delon",
             Address: [Address(Number: "36", Street: "Boulevard des écoles", ZipCode: "82230", Town: "MONCLAR DE QUERCY", Country: "FRANCE")],
             Phone: [Phone(Type: Phone.CaseOfType.Mobile, NumberPhone: "0674815756")],
             Email: "a.cordani@me.com")
-        var gabi: Person = Person(LastName: "Anthony",
-            FirstName: "Cordani",
+        var gabi: Person = Person(LastName: "Gabriel",
+            FirstName: "Cupillard",
             Address: [Address(Number: "36", Street: "Boulevard des écoles", ZipCode: "82230", Town: "MONCLAR DE QUERCY", Country: "FRANCE")],
             Phone: [Phone(Type: Phone.CaseOfType.Mobile, NumberPhone: "0674815756")],
             Email: "a.cordani@me.com")
-        var isa: Person = Person(LastName: "Anthony",
-            FirstName: "Cordani",
+        var isa: Person = Person(LastName: "Isabelle",
+            FirstName: "Sicard",
             Address: [Address(Number: "36", Street: "Boulevard des écoles", ZipCode: "82230", Town: "MONCLAR DE QUERCY", Country: "FRANCE")],
             Phone: [Phone(Type: Phone.CaseOfType.Mobile, NumberPhone: "0674815756")],
             Email: "a.cordani@me.com")
